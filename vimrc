@@ -1,3 +1,6 @@
+call pathogen#infect()
+call pathogen#helptags()
+
 set wrapscan
 set number
 set backspace=start,indent,eol
