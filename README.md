@@ -1,4 +1,3 @@
-
 Vim configuration backup
 
 How to use it
