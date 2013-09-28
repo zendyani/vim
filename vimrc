@@ -31,3 +31,5 @@ set tabstop=4                   " an indentation every four columns
 set softtabstop=4               " let backspace delete indent
 
 autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
