@@ -8,8 +8,8 @@ set backspace=start,indent,eol
 set t_Co=256
 colorscheme wombat256mod
 
-filetype plugin indent on   " Automatically detect file types.
 syntax on                   " syntax highlighting
+filetype plugin indent on   " Automatically detect file types.
 set mouse=a                 " automatically enable mouse usage
 scriptencoding utf-8
 	
@@ -30,4 +30,6 @@ set expandtab                   " tabs are spaces, not tabs
 set tabstop=4                   " an indentation every four columns
 set softtabstop=4               " let backspace delete indent
 
-"autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
