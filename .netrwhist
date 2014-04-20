@@ -1,6 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/riemann/Public/eskuel/help'
-let g:netrw_dirhist_2='/home/riemann/Public/default/protected/modules/kpanel/controllers'
-let g:netrw_dirhist_3='/home/riemann/Public/elbilad/protected/modules/frontend/components'
-let g:netrw_dirhist_4='/home/riemann/.config/xfce4/xfconf/xfce-perchannel-xml'
+let g:netrw_dirhist_cnt =6
