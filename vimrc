@@ -36,3 +36,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:nerdtree_tabs_open_on_console_startup=1
 :nnoremap <silent> <C-Right> :<C-u>if tabpagenr('$') > 1<Bar>tabnext<Bar>else<Bar>bnext<Bar>endif<CR>
 :nnoremap <silent> <C-Left> :<C-u>if tabpagenr('$') > 1<Bar>tabprevious<Bar>else<Bar>bprevious<Bar>endif<CR>
+nmap  <silent> <c-d> :bd<CR>
