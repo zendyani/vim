@@ -29,6 +29,7 @@ set shiftwidth=4                " use indents of 4 spaces
 set expandtab                   " tabs are spaces, not tabs
 set tabstop=4                   " an indentation every four columns
 set softtabstop=4               " let backspace delete indent
+set pastetoggle=<F2>
 
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
