@@ -33,6 +33,8 @@ set pastetoggle=<F2>
 
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
+map <C-cc> :<leader>cc<CR>
+map <C-cu> :<leader>cue<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let g:nerdtree_tabs_open_on_console_startup=1
 :nnoremap <silent> <C-Right> :<C-u>if tabpagenr('$') > 1<Bar>tabnext<Bar>else<Bar>bnext<Bar>endif<CR>
